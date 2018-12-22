@@ -2,14 +2,14 @@
 
 ## 1. 下载jdk
 `wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie"  -c
-         http://download.oracle.com/otn-pub/java/jdk/8u172-b11/a58eab1ec242421181065cdc37240b08/jdk-8u172-linux-x64.tar.gz`
+        http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.tar.gz`
     
 ## 2. 解压jdk
-`tar -xf jdk-8u172-linux-x64.tar.gz && ln -s jdk1.8.0_172/ java8`
+`tar -xf jdk-8u181-linux-x64.tar.gz && ln -s jdk1.8.0_181/ java8`
 
 ## 3. 配置环境变量
 
- ` vim /etc/profile.d/java.sh`
+ `vim /etc/profile.d/java.sh`
 
 ```
 JAVA_HOME=/usr/local/java8
